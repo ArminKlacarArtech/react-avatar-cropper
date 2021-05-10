@@ -9,7 +9,7 @@
     "start": "./node_modules/.bin/webpack-dev-server --content-base example/ --hot",
     "prepublish": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
     "demo": "./node_modules/.bin/webpack --config webpack.config.demo.js",
-    "prepare": "npm run build"
+    "prepare": "npm run prepublish"
   },
   "author": "Justin Schiff",
   "license": "MIT",
